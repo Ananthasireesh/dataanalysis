@@ -1,0 +1,25 @@
+Numpy is multidimensional array data 
+lists are very slow, numpy is very fast :- 
+Numpy uses fixed types 
+our computer always reads data in binary, 
+so in numpy a number 5 would be stored in int32 value 
+lists consists so many other values like object type, size, reference count, objecy value etc
+lists would need lot more space to store all the data above.
+
+Why numpy is faster?
+-> since numpy arrays are fixed type, no type checking 
+-> faster as numpy arrays occupy much less space as we use diffrent things like object type, size, reference count, objecy value 
+    to store the data 
+-> Numpy uses contagious memeory (in lists its random memory)
+    Benifits: CPU has SMD vector processing, it can be used since its contegious 
+              Effective cache utilisation.(lists will have longer memeroy loading)
+-> Numpy allows us to do item on item calculations 
+    Ex: a = np.array([1,3,5]) b = np.array([1,2,3]) a*b will return us np.array([1,6,15])
+
+Applications:
+-> Mathematics (MATLAB replacement)
+-> backend for pandas 
+-> plotting (matplotlib)
+-> Machine Learning 
+
+
